@@ -3,7 +3,7 @@
 <img src ="app/src/main/res/drawable/edujamicon.png" align="left"
 width="200" hspace="10" vspace="10">
 
-eduJam is an university app, which will help you with all of your university work. It has features which allow you to see the syllabus for the ongoing semester, weekly, academic and holiday time-table, to-do list, recent video lectures with respectives notes in a pdf form. We also have Fill my Cycle feature which helps in making the index for students under 2 minutes.
+eduJam is a university app, which will help you with all of your university work. It has features which allow you to see the syllabus for the ongoing semester, weekly, academic and holiday time-table, to-do list, recent video lectures with respectives notes in a pdf form. We also have Fill my Cycle feature which helps in making the index for students under 2 minutes.
 The app also includes a forum where all students can have a talk about any doubts.
 To use eduJam, You will need a eduJam account* first, which you are going to use in this app.
 
@@ -37,6 +37,12 @@ Before installation, please make sure you have already installed the following t
 5. Add changes to reflect the changes made (`git commit -m 'commit message'`)
 6. Push to the branch (` git push `)
 7. Create a Pull Request
+
+## 📱 Test Credentails
+1. If you already have tcet id, we recommend using it
+2. Test credentials:
+   - email - test@tcetmumbai.in
+   - password - eduJam
  
 ## 👨‍💻 Contributing
 
@@ -72,3 +78,6 @@ About the future usage of our app, we plan to make it accessibale to every stude
 
 ## 🙏 Support
 Do ⭐️ the project if you like it :)
+
+## Join us
+If you would like to join us in discussions for the project, you can join our [discord server](https://discord.com/invite/fKakn9kk39)
