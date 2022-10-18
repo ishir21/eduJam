@@ -164,14 +164,14 @@ class SignInActivity : AppCompatActivity() {
                 return@setOnClickListener
             }
 
-            if (password.length < 8) {
-                passwordEditTextLayout.error = "Wrong password"
-                emailLoginButton.stopAnimation(
-                    TransitionButton.StopAnimationStyle.SHAKE,
-                    null
-                )
-                return@setOnClickListener
-            }
+//            if (password.length < 8) {
+//                passwordEditTextLayout.error = "Wrong password"
+//                emailLoginButton.stopAnimation(
+//                    TransitionButton.StopAnimationStyle.SHAKE,
+//                    null
+//                )
+//                return@setOnClickListener
+//            }
             mAuth = FirebaseAuth.getInstance()
             mAuth.signInWithEmailAndPassword(email, password)
                 .addOnCompleteListener { it ->

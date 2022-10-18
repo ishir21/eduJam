@@ -3,11 +3,11 @@ plugins {
     id 'kotlin-android'
     id 'kotlin-kapt'
     id 'com.google.gms.google-services'
-    id 'androidx.navigation.safeargs.kotlin'
+    id 'androidx.navigation.safeargs'
 
 }
 apply plugin: 'com.google.gms.google-services'
-'androidx.navigation.safeargs.kotlin'
+'androidx.navigation.safeargs'
 
 android {
     compileSdk 31

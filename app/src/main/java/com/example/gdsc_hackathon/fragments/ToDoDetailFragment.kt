@@ -55,8 +55,7 @@ class ToDoDetailFragment : Fragment() {
 
     private fun editTodo() {
         val action = ToDoDetailFragmentDirections.actionToDoDetailFragmentToAddToDOFragment(
-            getString(R.string.edit_todo),
-            todo.id
+            getString(R.string.edit_todo)
         )
         this.findNavController().navigate(action)
     }

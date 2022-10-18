@@ -19,12 +19,12 @@ class AboutUsFragment : Fragment(), ProfileAdapter.OnItemClicked {
 
     private var _binding: FragmentAboutUsBinding? = null
     private val binding get() = _binding!!
-    val names = listOf("Dhiraj Chauhan","Tejas Borkar", "Anam Ansari", "Wilfred Almeida")
-    val images = listOf(R.drawable.dhiraj_chauhan,R.drawable.tejas_borkar,R.drawable.anam_ansari, R.drawable.wilfred_almeida)
+    val names = listOf("Dhiraj Chauhan","Ishir Agrawal", "Anam Ansari", "Aakash Chaurasiya")
+    val images = listOf(R.drawable.dhiraj_chauhan,R.drawable.ishir_agrawal,R.drawable.anam_ansari, R.drawable.aakash)
     val githubIcon = listOf(R.drawable.github_icon_24,R.drawable.github_icon_24,R.drawable.github_icon_24, R.drawable.github_icon_24)
     val linkedinIcon = listOf(R.drawable.linkedin_icon_24,R.drawable.linkedin_icon_24,R.drawable.linkedin_icon_24, R.drawable.linkedin_icon_24)
     val githubID = listOf("https://www.github.com/cdhiraj40/","https://github.com/tejasvb/","https://github.com/anamansari062","https://github.com/WilfredAlmeida")
-    val linkedinID = listOf("https://www.linkedin.com/in/cdhiraj40/","https://www.linkedin.com/in/tejas-borkar-03297b119","https://www.linkedin.com/in/anam-ansari-673bb7207/","https://www.linkedin.com/in/wilfred-almeida/")
+    val linkedinID = listOf("https://www.linkedin.com/in/cdhiraj40/","https://www.linkedin.com/in/ishiragrawal02","https://www.linkedin.com/in/anam-ansari-673bb7207/","https://www.linkedin.com/in/wilfred-almeida/")
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
